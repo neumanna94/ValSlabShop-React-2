@@ -2,9 +2,14 @@ import React from 'react';
 
 function Marketplace(){
   return (
-    <div>
+    <marketplace>
+      <style jsx>{`
+        marketplace {
+          background-color: red;
+        }
+      `}</style>
       Marketplace works!
-    </div>
+    </marketplace>
   );
 }
 export default Marketplace;

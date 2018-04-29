@@ -19,6 +19,13 @@ class App extends React.Component {
   render(){
     return (
       <div>
+        <style jsx global>{`
+          body {
+            font-family: Helvetica;
+            color: black;
+            background-color: white;
+          }
+        `}</style>
         <Header/>
         <Switch>
           <Route exact path ='/' component={Landing} />
