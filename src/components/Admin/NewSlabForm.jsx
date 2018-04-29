@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { v4 } from 'uuid';
 
 function NewSlabForm(props){
   let _name = null;
@@ -24,7 +23,7 @@ function NewSlabForm(props){
     _weight = '';
     _price = '';
   }
-  return
+  return (
   <newSlabForm>
     <form onSubmit={handleNewSlabFormSubmission}>
       <input
@@ -67,8 +66,9 @@ function NewSlabForm(props){
         id='price'
         placeholder='Price'
         ref={(input) => {_price=input;}}/>
-    </form
+    </form>
   </newSlabForm>
+  )
 }
 
 NewSlabForm.propTypes = {

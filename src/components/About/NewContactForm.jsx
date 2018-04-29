@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { v4 } from 'uuid';
 
 function NewContactForm(props){
@@ -55,7 +56,7 @@ function NewContactForm(props){
   );
 }
 NewContactForm.propTypes = {
-  onNewContactFormSubmission: PropTypes.func;
+  onNewContactFormSubmission: PropTypes.func
 }
 
 export default NewContactForm;
