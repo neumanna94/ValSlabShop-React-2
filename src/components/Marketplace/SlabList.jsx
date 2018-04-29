@@ -3,10 +3,10 @@ import Slab from './Slab';
 
 function SlabList(){
   return (
-    <div>
+    <slablist>
       Slab List Works
-    </div>
-  )
+    </slablist>
+  );
 }
 
 export default SlabList;

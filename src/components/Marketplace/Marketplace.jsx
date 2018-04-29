@@ -1,4 +1,6 @@
 import React from 'react';
+import Filter from './Filter';
+import SlabList from './SlabList';
 
 function Marketplace(){
   return (
@@ -7,7 +9,15 @@ function Marketplace(){
         marketplace {
           background-color: red;
         }
+        filter {
+          color: silver;
+        }
+        slablist {
+          color: white;
+        }
       `}</style>
+      <Filter/>
+      <SlabList/>
       Marketplace works!
     </marketplace>
   );

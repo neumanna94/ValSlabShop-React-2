@@ -1,37 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
+import Landing from './Landing/Landing';
+function Header(){
+    return (
+      <header>
+      <Navbar />
+        <style jsx>{`
+          header {
+            background-color: grey;
+            color: white;
+            text-align: center;
+          }
+          jumbotron {
+            text-align: center;
+            background-color: silver;
+          }
 
-
-function Header() {
-  return (
-    <header>
-      <style jsx>{`
-        header {
-          background-color: grey;
-        }
-        jumbotron {
-          text-align: center;
-          background-color: grey;
-        }
-        linkContainer {
-          margin-left: 23.5%;
-        }
-        linkContainer a {
-          text-decoration: none;
-          color: white;
-          margin-left: 10%;
-        }
-        linkContainer a:hover {
-          color: red;
-        }
-      `}</style>
-
-      <jumbotron>
+        `}</style>
         <h1> Val Gnot and Grain Slabs </h1>
-        <linkContainer><Link to="/">Home</Link><Link to="/View/Marketplace"> Marketplace</Link><Link to="/About"> About </Link></linkContainer>
-      </jumbotron>
-
-    </header>
-  );
-}
+      </header>
+    );
+  }
 export default Header;

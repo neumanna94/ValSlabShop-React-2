@@ -2,9 +2,13 @@ import React from 'react';
 
 function Landing(){
   return (
-    <div>
+    <landing>
+    <style jsx>{`
+      landing {
+      }
+    `}</style>
       Landing Component Works!
-    </div>
+    </landing>
   );
 }
 
