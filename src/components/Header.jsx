@@ -15,9 +15,15 @@ function Header(){
             text-align: center;
             background-color: silver;
           }
-
+          .imageDisplay {
+            background-image:
+            width: 100%;
+            height: 100px;
+          }
         `}</style>
         <h1> Val Gnot and Grain Slabs </h1>
+        <div classname ="imageDisplay">
+        </div>
       </header>
     );
   }
