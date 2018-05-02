@@ -14,12 +14,11 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      masterSlabList: [],
-      masterContactList: [],
+      masterSlabList: []
+
     };
     console.log(this);
     this.handleNewSlabFormSubmission = this.handleAddingNewSlabToList.bind(this);
-    this.handleNewContactFormSubmission = this.handleAddingNewContactToList.bind(this);
   }
 
   handleAddingNewSlabToList(newSlab){

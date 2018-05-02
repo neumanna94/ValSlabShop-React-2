@@ -22,7 +22,7 @@ function Header(){
           }
         `}</style>
         <h1> Val Gnot and Grain Slabs </h1>
-        <div classname ="imageDisplay">
+        <div className ="imageDisplay">
         </div>
       </header>
     );
