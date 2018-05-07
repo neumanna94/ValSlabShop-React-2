@@ -1,4 +1,5 @@
 import React from 'react';
+import NewContactForm from './NewContactForm';
 import Iframe from 'react-iframe';
 
 function About(){
@@ -32,6 +33,7 @@ function About(){
         <hr></hr>
         <div className="contactUs">
           <h2> Contact us </h2>
+          <NewContactForm/>
           <br></br>
           <br></br>
           <br></br>

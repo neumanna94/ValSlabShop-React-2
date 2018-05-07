@@ -1,10 +1,10 @@
 import React from 'react';
-
+import NewSlabForm from './NewSlabForm';
 function Admin() {
   return(
-    <div>
-      Admin component rendered
-    </div>
+    <admin>
+      <NewSlabForm/>
+    </admin>
   );
 }
 

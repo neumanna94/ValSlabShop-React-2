@@ -11,7 +11,7 @@ function Footer(){
           width: 100%;
           height: 25px;
           color: white;
-          background-color: #2ccaef;
+          background-color: grey;
           text-align: center;
           opacity: 0.8;
           box-shadow: 0 0 5px black;

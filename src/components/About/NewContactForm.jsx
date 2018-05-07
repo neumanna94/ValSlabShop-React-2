@@ -36,6 +36,7 @@ function NewContactForm(props){
           ref={(input) => {_number = input;}}/>
           <br></br>
           <label> Enter your Email</label>
+          <br></br>
           <input
             type='text'
             id='email'
