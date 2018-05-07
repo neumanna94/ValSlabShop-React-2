@@ -15,7 +15,7 @@ function Navbar(){
           color: red;
         }
       `}</style>
-      <Link to="/">ABOUT US</Link><Link to="/View/Marketplace"> SLABS </Link><Link to="/About"> CONTACT US </Link>
+      <Link to="/">ABOUT US</Link><Link to="/View/Marketplace"> SLABS </Link><Link to="/About"> CONTACT US </Link><Link to="/Admin"> Admin Panel </Link>
     </navbar>
   );
 }

@@ -6,6 +6,7 @@ import Marketplace from './Marketplace/Marketplace';
 import About from './About/About';
 import NewContactForm from './About/NewContactForm';
 import NewSlabForm from './Admin/NewSlabForm';
+import Admin from './Admin/Admin';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
 
@@ -47,6 +48,7 @@ class App extends React.Component {
           <Route exact path ='/' component={Landing} />
           <Route exact path ='/View/Marketplace' component={Marketplace} />
           <Route exact path ='/About' component={About} />
+          <Route exact path ='/Admin' component={Admin} />
           <Route component = {Error404} />
         </Switch>
         <Footer/>

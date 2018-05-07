@@ -17,7 +17,6 @@ function Marketplace(){
         }
       `}</style>
       <Filter/>
-      <SlabList/>
       Marketplace works!
     </marketplace>
   );
