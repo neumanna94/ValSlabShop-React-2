@@ -1,4 +1,4 @@
-# Val Slab Shop in React[Version 1]
+# Val Slab Shop in React[Version 2]
 
 ## Table of Contents
 
